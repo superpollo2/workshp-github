@@ -241,9 +241,6 @@ https://github.com/tandpfun/skill-icons
 
 ### Badges
 https://github.com/VishwaGauravIn/pretty-readme-badges
-https://github.com/Naereen/badges
-https://github.com/alexandresanlim/Badges4-README.md-Profile
-
 ```
 ![Pug](https://img.shields.io/badge/Pug-FFF?logo=pug&logoColor=A86454)
 ```
@@ -252,6 +249,10 @@ https://github.com/alexandresanlim/Badges4-README.md-Profile
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?logo=jupyter&logoColor=white)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?logo=git&logoColor=white)
 
+https://github.com/Naereen/badges
+```
+[![NuGet latest version](https://badgen.net/nuget/v/newtonsoft.json/latest)](https://nuget.org/packages/newtonsoft.json)
+```
 [![PR welcome issues still open](https://badgen.net/https/pr-welcome-badge.vercel.app/api/badge/fastify/help)](https://github.com/sinchang/pr-welcome-badge)
 [![NuGet latest version](https://badgen.net/nuget/v/newtonsoft.json/latest)](https://nuget.org/packages/newtonsoft.json)
 [![GitHub commits](https://badgen.net/github/commits/Naereen/Strapdown.js)](https://GitHub.com/Naereen/StrapDown.js/commit/)
@@ -260,6 +261,11 @@ https://github.com/alexandresanlim/Badges4-README.md-Profile
 [![GitHub followers](https://img.shields.io/github/followers/Naereen.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/Naereen?tab=followers)
 [![GitHub watchers](https://img.shields.io/github/watchers/Naereen/StrapDown.js.svg?style=social&label=Watch&maxAge=2592000)](https://GitHub.com/Naereen/StrapDown.js/watchers/)
 
+https://github.com/alexandresanlim/Badges4-README.md-Profile
+
+> [!NOTE]
+> Puedes crear tus propios badges
+https://shields.io/badges
 
 
 ### Emojis
@@ -267,6 +273,7 @@ https://github.com/alexandresanlim/Badges4-README.md-Profile
 :name
 ```
 🏆 📰 🌸 📆 ♐ 🧠 ♟️ 🪙 🥠 💉 💩 📸 🦑 💹 💬 🎟️ 🎫 💡 🙋 📅 🈷️ 🗳️ 👨‍💻 🎼 🎩 ⏱️ 🧑‍🤝‍🧑 ✒️ 🗂️ 🎭 📓 🗼 🌇 💕 💝 🗨️ ✨ 💫 🌟 🕹️ 💭 📌 🧮 🐤 ⏰
+https://gist.github.com/rxaviers/7360908
 
 
 ### Como ñapa si quieren usar esta animación 
