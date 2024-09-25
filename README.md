@@ -151,7 +151,7 @@ jobs:
           plugin_languages_limit: 8
 ```
 ### Contribuciones
-<img src="https://github.com/user-attachments/assets/b5aed1b0-25b4-46e0-8ecc-faa7eff5c4be alt="calendar full year" width="320">
+<img src="https://github.com/user-attachments/assets/b5aed1b0-25b4-46e0-8ecc-faa7eff5c4be" alt="calendar full year" width="320">
 
 
 ```yaml
