@@ -1,10 +1,13 @@
 
-# workshop-github
+[![GitHub watchers](https://img.shields.io/github/watchers/Naereen/StrapDown.js.svg?style=social&label=Watch&maxAge=2592000)](https://github.com/superpollo2/workshp-github)
+[![GitHub stars](https://img.shields.io/github/stars/Naereen/StrapDown.js.svg?style=social&label=Star&maxAge=2592000)](https://github.com/superpollo2/workshp-github)
+
+# 🌟 workshop-github 🌟
 ¿Sabías que tu perfil de GitHub puede ser mucho más que una simple lista de repositorios? es tu portafolio profesional, en este workshop, aprenderás a transformar tu perfil de GitHub en una verdadera carta de presentación. Te mostraremos cómo personalizar tu perfil para visualizar tus habilidades, proyectos y logros.
 
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?logo=github&logoColor=white)
+[![forthebadge made-with-markdown](http://ForTheBadge.com/images/badges/made-with-markdown.svg)]([https://www.python.org/](https://www.markdownguide.org/getting-started/))
 
-## Crea un nuevo repo secreto
+## Crea un nuevo repo secreto 🔐
 1. Crear un nuevo repositorio (parte superior derecha dentro la navegación)
 <img src="https://github.com/user-attachments/assets/70a74d1d-7913-4c6c-a80e-f34b4173345f" alt="new repo" width="200">
 
@@ -248,6 +251,16 @@ https://github.com/alexandresanlim/Badges4-README.md-Profile
 ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?logo=Canva&logoColor=white)
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?logo=jupyter&logoColor=white)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?logo=git&logoColor=white)
+
+[![PR welcome issues still open](https://badgen.net/https/pr-welcome-badge.vercel.app/api/badge/fastify/help)](https://github.com/sinchang/pr-welcome-badge)
+[![NuGet latest version](https://badgen.net/nuget/v/newtonsoft.json/latest)](https://nuget.org/packages/newtonsoft.json)
+[![GitHub commits](https://badgen.net/github/commits/Naereen/Strapdown.js)](https://GitHub.com/Naereen/StrapDown.js/commit/)
+[![NuGet stable version](https://badgen.net/nuget/v/newtonsoft.json)](https://nuget.org/packages/newtonsoft.json)
+
+[![GitHub followers](https://img.shields.io/github/followers/Naereen.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/Naereen?tab=followers)
+[![GitHub watchers](https://img.shields.io/github/watchers/Naereen/StrapDown.js.svg?style=social&label=Watch&maxAge=2592000)](https://GitHub.com/Naereen/StrapDown.js/watchers/)
+
+
 
 ### Emojis
 ```
