@@ -1,9 +1,13 @@
 name: Half-year calendar
 
 on:
+  schedule:
+    - cron: "0 0 * * *" 
+  workflow_dispatch:
   push:
     branches:
       - main
+      
 jobs:
   generate:
     runs-on: ubuntu-latest
