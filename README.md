@@ -3,8 +3,8 @@
 
 ## Crea un nuevo repo secreto
 1. Crear un nuevo repositorio (parte superior derecha dentro la navegación)
-  
-![image](https://github.com/user-attachments/assets/70a74d1d-7913-4c6c-a80e-f34b4173345f)
+<img src="https://github.com/user-attachments/assets/70a74d1d-7913-4c6c-a80e-f34b4173345f" alt="new repo" width="200">
+
   
 2. En el nombre de repositorio colocar el mismo nombre de usuario que tenemos
 Al colocarlo te aparece el mensaje de que el owner/owner es un repositorio especial
@@ -13,12 +13,12 @@ que se puede usar para agregar un README a tu perfil de GitHub
 - Public
 - Add a README file***
     
-![image](https://github.com/user-attachments/assets/fee77945-58a8-4c62-b01e-e2aa2cee3a0f)
+![image](https://github.com/user-attachments/assets/f5ee47ac-0359-48cf-a7cc-38df5dd7a415)
 
 1. Vuelve al inicio de tu perfil para ver el resultado
 ![image](https://github.com/user-attachments/assets/b0355506-77c3-4af9-9729-f324648f79f8)
 
-## Usemos Git Actions para construir matricas
+## Usemos Git Actions para construir metricas
 
 ### Crear nuevo token
 1. Ve a **Settings** (Configuración) desde tu perfil.
@@ -98,3 +98,21 @@ https://github.com/tandpfun/skill-icons
 ```
 
 [![My Skills](https://skillicons.dev/icons?i=java,kotlin,nodejs,figma&theme=light)](https://skillicons.dev)
+
+```
+[![My Skills](https://skillicons.dev/icons?i=js,html,css,wasm)](https://skillicons.dev)
+```
+[![My Skills](https://skillicons.dev/icons?i=js,html,css,wasm)](https://skillicons.dev)
+
+### Badges
+https://github.com/VishwaGauravIn/pretty-readme-badges
+https://github.com/Naereen/badges
+https://github.com/alexandresanlim/Badges4-README.md-Profile
+
+```
+![Pug](https://img.shields.io/badge/Pug-FFF?logo=pug&logoColor=A86454)
+```
+![Pug](https://img.shields.io/badge/Pug-FFF?logo=pug&logoColor=A86454)
+![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?logo=Canva&logoColor=white)
+![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?logo=jupyter&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?logo=git&logoColor=white)
