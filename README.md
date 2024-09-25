@@ -5,7 +5,6 @@
 1. Crear un nuevo repositorio (parte superior derecha dentro la navegación)
 <img src="https://github.com/user-attachments/assets/70a74d1d-7913-4c6c-a80e-f34b4173345f" alt="new repo" width="200">
 
-  
 2. En el nombre de repositorio colocar el mismo nombre de usuario que tenemos
 Al colocarlo te aparece el mensaje de que el owner/owner es un repositorio especial
 que se puede usar para agregar un README a tu perfil de GitHub
@@ -16,6 +15,7 @@ que se puede usar para agregar un README a tu perfil de GitHub
 ![image](https://github.com/user-attachments/assets/f5ee47ac-0359-48cf-a7cc-38df5dd7a415)
 
 1. Vuelve al inicio de tu perfil para ver el resultado
+   
 ![image](https://github.com/user-attachments/assets/b0355506-77c3-4af9-9729-f324648f79f8)
 
 ## Usemos Git Actions para construir metricas
@@ -75,6 +75,22 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
  ```
+### Calendar 📆
+<img src="https://github.com/user-attachments/assets/a0704532-5401-44d5-ac0f-019ecd477ed0" alt="calendar full year" width="200">
+
+ ```yaml
+      # Generate full calendar
+      - name: Generate half-year calendar
+        uses: lowlighter/metrics@latest
+        with:
+          filename: calendar.plugin.fullyear.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+ ```
+                                      
+
 
 Si quieres cacharrear más 
 https://github.com/lowlighter/metrics?tab=readme-ov-file
@@ -93,6 +109,17 @@ quieras que se vea
 ![Languages Classic](metrics.plugin.isocalendar.svg)
 
 ## Otros recursos
+
+### Pinned repos
+```
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=superpollo2&repo=administrator-console)](https://github.com/superpollo2/administrator-console)
+```
+|                                      |                                      |
+|--------------------------------------|--------------------------------------|
+|[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Integradorl-UdeA&repo=frontend_administrator-console)](https://github.com/Integradorl-UdeA/frontend_administrator-console)        | [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=superpollo2&repo=hoja_de_vida)](https://github.com/superpollo2/hoja_de_vida) |
+| [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=superpollo2&repo=AutomataFinitoDeterministicoPractica)](https://github.com/superpollo2/AutomataFinitoDeterministicoPractica) | [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=superpollo2&repo=weatherApp)](https://github.com/superpollo2/weatherApp) |
+| [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=superpollo2&repo=workshp-github)](https://github.com/superpollo2/workshp-github) | [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Integradorl-UdeA&repo=backend_administrator-console)](https://github.com/Integradorl-UdeA/backend_administrator-console)                                  |
+
 
 ### Iconos tecnologías o saberes
 https://github.com/tandpfun/skill-icons 
