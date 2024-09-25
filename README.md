@@ -2,6 +2,8 @@
 # workshop-github
 ¿Sabías que tu perfil de GitHub puede ser mucho más que una simple lista de repositorios? es tu portafolio profesional, en este workshop, aprenderás a transformar tu perfil de GitHub en una verdadera carta de presentación. Te mostraremos cómo personalizar tu perfil para visualizar tus habilidades, proyectos y logros.
 
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?logo=github&logoColor=white)
+
 ## Crea un nuevo repo secreto
 1. Crear un nuevo repositorio (parte superior derecha dentro la navegación)
 <img src="https://github.com/user-attachments/assets/70a74d1d-7913-4c6c-a80e-f34b4173345f" alt="new repo" width="200">
@@ -41,14 +43,6 @@ que se puede usar para agregar un README a tu perfil de GitHub
 7. Haz clic en **Add secret** para guardar el secreto.
 
 
-> [!NOTE]
-> This is an educational project.
-
-> [!TIP]
-> Helpful advice for doing things better or more easily.
-
-> [!IMPORTANT]
-> Key information users need to know to achieve their goal.
 
 ### Workflow base
 Usa este workflow base para crear un nuevo actions generico
