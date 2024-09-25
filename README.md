@@ -81,6 +81,8 @@ jobs:
         uses: actions/checkout@v3
  ```
 ### Explicación del cron ⏲️
+Esta tarea la ejecutaremos con constancia puesto que las estadisticas iran cambiando
+y queremos que los plugins esten actualizados
 
 > [!NOTE]
 > un Cron es una tarea automatica.
@@ -207,8 +209,12 @@ y el nombre del svg
 ```
 ![Languages Classic](lenguages.classic.svg)
 
-También puedes poder uno al lado del otro para optimizar espacio o como tu 
-quieras que se vea o como quieras que te queden
+> [!TIP]
+> También puedes poder uno al lado del otro para optimizar espacio o como tu
+> quieras que se vea o como quieras que te queden usando etiquetas html
+> y todos los recursos que ofrece markdown
+https://www.markdownguide.org/getting-started/
+
 
 ## Otros recursos
 
