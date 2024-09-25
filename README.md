@@ -40,19 +40,23 @@ que se puede usar para agregar un README a tu perfil de GitHub
 6. En el campo **Value**, pega el token que creaste.
 7. Haz clic en **Add secret** para guardar el secreto.
 
-Explicación del cron
 
- ```Scss
-└── * * * * * * 
-    ├── minute (0-59)
-    ├── hour (0-23)
-    ├── day_of_month (1-31)
-    ├── month (1-12)
-    ├── mday_of_week (0-6)
-    └── year (1970-2199)
- ```
+> [!NOTE]
+> This is an educational project.
 
-Workflow base
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+
+### Workflow base
+Usa este workflow base para crear un nuevo actions generico
+
+> [!IMPORTANT]
+> Yaml es un lenguaje en el que debes cuidar mucho la identación,
+> un solo espacio mal puesto te generara problemas.
+
  ```yaml
 name: Half-year calendar
 
@@ -76,6 +80,26 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
  ```
+### Explicación del cron ⏲️
+
+> [!NOTE]
+> un Cron es una tarea automatica.
+
+ ```Scss
+└── * * * * * * 
+    ├── minute (0-59)
+    ├── hour (0-23)
+    ├── day_of_month (1-31)
+    ├── month (1-12)
+    ├── mday_of_week (0-6)
+    └── year (1970-2199)
+ ```
+
+## Agreguemos cositas bonitas a tu readme 🤟🫀
+Usaremos actions para construir plugins basados en las estadisticas
+e información de tus repositorios (publicos), interacciones, contribuciones
+y otros. 
+Cada uno de las siguientes tareas las agregaremos en el Actions en steps luego del primero.
 
 ### Plantilla básica 🐿️
 
@@ -96,7 +120,7 @@ jobs:
           plugin_stargazers: yes
           
  ```
-### Pinned Repositorios 
+### Pinned Repositorios 💘
 
 <img width="396" alt="image" src="https://github.com/user-attachments/assets/7479658a-b30d-409d-b011-b744367df329">
 
@@ -133,7 +157,7 @@ jobs:
        
  ```
 
-### Lenguajes
+### Lenguajes 👅
 <img src="https://github.com/user-attachments/assets/19b8cd32-03d7-4a10-89f8-e62f43307956" alt="calendar full year" width="320">
 
 ```yaml
@@ -150,7 +174,7 @@ jobs:
           plugin_languages_colors: github
           plugin_languages_limit: 8
 ```
-### Contribuciones
+### Contribuciones ➕
 <img src="https://github.com/user-attachments/assets/b5aed1b0-25b4-46e0-8ecc-faa7eff5c4be" alt="calendar full year" width="320">
 
 
@@ -184,10 +208,7 @@ y el nombre del svg
 ![Languages Classic](lenguages.classic.svg)
 
 También puedes poder uno al lado del otro para optimizar espacio o como tu 
-quieras que se vea
-
-![Languages Classic](lenguages.classic.svg)
-![Languages Classic](metrics.plugin.isocalendar.svg)
+quieras que se vea o como quieras que te queden
 
 ## Otros recursos
 
