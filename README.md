@@ -76,6 +76,9 @@ jobs:
         uses: actions/checkout@v3
  ```
 
+Si quieres cacharrear más 
+https://github.com/lowlighter/metrics?tab=readme-ov-file
+
 Para insertar las imagenes creadas usa, recuerda cambiar la etiqueta
 y el nombre del svg
 ```
@@ -116,3 +119,18 @@ https://github.com/alexandresanlim/Badges4-README.md-Profile
 ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?logo=Canva&logoColor=white)
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?logo=jupyter&logoColor=white)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?logo=git&logoColor=white)
+
+### Emojis
+```
+:name
+```
+🏆 📰 🌸 📆 ♐ 🧠 ♟️ 🪙 🥠 💉 💩 📸 🦑 💹 💬 🎟️ 🎫 💡 🙋 📅 🈷️ 🗳️ 👨‍💻 🎼 🎩 ⏱️ 🧑‍🤝‍🧑 ✒️ 🗂️ 🎭 📓 🗼 🌇 💕 💝 🗨️ ✨ 💫 🌟 🕹️ 💭 📌 🧮 🐤 ⏰
+
+
+### Como ñapa si quieren usar esta animación 
+te dejo el workflow que lo crea (esta en este repo) 
+https://github.com/superpollo2/workshp-github/blob/main/.github/workflows/snake.yml
+```
+![Languages Classic](dist/github-contribution-grid-snake.svg)
+```
+![Languages Classic](dist/github-contribution-grid-snake.svg)
