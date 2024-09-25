@@ -150,7 +150,29 @@ jobs:
           plugin_languages_colors: github
           plugin_languages_limit: 8
 ```
+### Contribuciones
+<img src="https://github.com/user-attachments/assets/b5aed1b0-25b4-46e0-8ecc-faa7eff5c4be alt="calendar full year" width="320">
 
+
+```yaml
+      # Generate contribution activity
+      - name: Generate Contributions
+        uses: lowlighter/metrics@latest
+          with:
+            filename: metrics.plugin.contributors.categories.svg
+            token: ${{ secrets.METRICS_TOKEN }}
+            base: ""
+            template: repository
+            repo: metrics
+            plugin_contributors_sections: categories
+            plugin_contributors: yes
+            plugin_contributors_categories: |
+              {
+                "📚 Documentation": ["README.md", "docs/**"],
+                "💻 Code": ["source/**", "src/**"],
+                "#️⃣ Others": ["*"]
+              }
+```
 Si quieres cacharrear más 
 https://github.com/lowlighter/metrics?tab=readme-ov-file
 
