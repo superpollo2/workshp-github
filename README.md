@@ -1,3 +1,4 @@
+
 # workshop-github
 ¿Sabías que tu perfil de GitHub puede ser mucho más que una simple lista de repositorios? es tu portafolio profesional, en este workshop, aprenderás a transformar tu perfil de GitHub en una verdadera carta de presentación. Te mostraremos cómo personalizar tu perfil para visualizar tus habilidades, proyectos y logros.
 
@@ -75,8 +76,49 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
  ```
+
+### Plantilla básica 🐿️
+
+<img src="https://github.com/user-attachments/assets/b5a4e232-4f81-4610-9b25-1a380766e262" alt="calendar full year" width="320">
+
+ ```yaml
+      # Generate basic profile
+      - name: Generate basic profile
+        uses: lowlighter/metrics@latest
+        with:
+          filename: basicprofile.plugin.classic.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: America/Bogota
+          plugin_introduction: yes
+          plugin_introduction_title: yes
+          plugin_stargazers: yes
+          
+ ```
+### Pinned Repositorios 
+
+<img width="396" alt="image" src="https://github.com/user-attachments/assets/7479658a-b30d-409d-b011-b744367df329">
+
+```yaml
+      # Generate repositories
+      - name: Pinned repositories
+    	uses: lowlighter/metrics@latest
+    	with:
+    	  filename: plugin.repositories.pinned.svg
+    	  token: ${{ secrets.METRICS_TOKEN }}
+    	  base: ""
+    	  plugin_repositories: yes
+    	  plugin_repositories: yes
+    	  plugin_repositories_featured:  sistema-gestion-inventarios,  hoja_de_vida 
+    	  plugin_repositories_order: featured, pinned, starred, random
+    	  plugin_repositories_pinned: 6
+    	  plugin_repositories_affiliations: owner, collaborator, organization_member      
+```	
+
 ### Calendar 📆
-<img src="https://github.com/user-attachments/assets/a0704532-5401-44d5-ac0f-019ecd477ed0" alt="calendar full year" width="200">
+
+<img src="https://github.com/user-attachments/assets/a0704532-5401-44d5-ac0f-019ecd477ed0" alt="calendar full year" width="320">
 
  ```yaml
       # Generate full calendar
@@ -88,9 +130,26 @@ jobs:
           base: ""
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
+       
  ```
-                                      
 
+### Lenguajes
+<img src="https://github.com/user-attachments/assets/19b8cd32-03d7-4a10-89f8-e62f43307956" alt="calendar full year" width="320">
+
+```yaml
+      # Generate Lenguage activity
+      - name: Generate half-year calendar
+        uses: lowlighter/metrics@latest
+        with:
+          filename: calendar.plugin.fullyear.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_languages: yes
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_sections: recently-used
+          plugin_languages_colors: github
+          plugin_languages_limit: 8
+```
 
 Si quieres cacharrear más 
 https://github.com/lowlighter/metrics?tab=readme-ov-file
