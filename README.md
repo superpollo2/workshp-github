@@ -116,7 +116,7 @@ Cada uno de las siguientes tareas las agregaremos en el Actions en steps luego d
           config_timezone: America/Bogota
           plugin_introduction: yes
           plugin_introduction_title: yes
-          plugin_stargazers: yes
+          
           
  ```
 ### Pinned Repositorios 💘
@@ -148,7 +148,7 @@ Cada uno de las siguientes tareas las agregaremos en el Actions en steps luego d
       - name: Generate half-year calendar
         uses: lowlighter/metrics@latest
         with:
-          filename: calendar.plugin.fullyear.svg
+          filename: metrics.plugin.isocalendar.fullyear.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_isocalendar: yes
@@ -169,7 +169,7 @@ Cada uno de las siguientes tareas las agregaremos en el Actions en steps luego d
           base: ""
           plugin_languages: yes
           plugin_languages_analysis_timeout: 15
-          plugin_languages_sections: recently-used
+          plugin_languages_sections: recently-used, most-used
           plugin_languages_colors: github
           plugin_languages_limit: 8
 ```
