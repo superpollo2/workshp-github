@@ -128,7 +128,7 @@ Cada uno de las siguientes tareas las agregaremos en el Actions en steps luego d
       - name: Pinned repositories
     	uses: lowlighter/metrics@latest
     	with:
-    	  filename: plugin.repositories.pinned.svg
+    	  filename: repositories.pinned.svg
     	  token: ${{ secrets.METRICS_TOKEN }}
     	  base: ""
     	  plugin_repositories: yes
@@ -148,7 +148,7 @@ Cada uno de las siguientes tareas las agregaremos en el Actions en steps luego d
       - name: Generate half-year calendar
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.isocalendar.fullyear.svg
+          filename: calendar.plugin.isocalendar.fullyear.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_isocalendar: yes
@@ -164,7 +164,7 @@ Cada uno de las siguientes tareas las agregaremos en el Actions en steps luego d
       - name: Generate half-year calendar
         uses: lowlighter/metrics@latest
         with:
-          filename: calendar.plugin.fullyear.svg
+          filename: leguages.plugin.fullyear.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_languages: yes
@@ -182,7 +182,7 @@ Cada uno de las siguientes tareas las agregaremos en el Actions en steps luego d
       - name: Generate Contributions
         uses: lowlighter/metrics@latest
           with:
-            filename: metrics.plugin.contributors.categories.svg
+            filename: contribution.plugin.contributors.categories.svg
             token: ${{ secrets.METRICS_TOKEN }}
             base: ""
             template: repository
