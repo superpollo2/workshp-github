@@ -145,7 +145,7 @@ Cada uno de las siguientes tareas las agregaremos en el Actions en steps luego d
 
  ```yaml
       # Generate full calendar
-      - name: Generate half-year calendar
+      - name: Generate full year calendar
         uses: lowlighter/metrics@latest
         with:
           filename: calendar.plugin.isocalendar.fullyear.svg
@@ -164,7 +164,7 @@ Cada uno de las siguientes tareas las agregaremos en el Actions en steps luego d
       - name: Generate half-year calendar
         uses: lowlighter/metrics@latest
         with:
-          filename: leguages.plugin.fullyear.svg
+          filename: leguages.plugin.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_languages: yes
