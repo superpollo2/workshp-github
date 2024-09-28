@@ -28,3 +28,43 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_isocalendar: yes
+
+      # Generate basic profile
+      - name: Generate basic profile
+        uses: lowlighter/metrics@latest
+        with:
+          filename: basicprofile.plugin.classic.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: America/Bogota
+          plugin_introduction: yes
+          plugin_introduction_title: yes
+         
+      # Generate repositories
+      - name: Pinned repositories
+        uses: lowlighter/metrics@latest
+        with:
+          filename: plugin.repositories.pinned.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_repositories: yes
+          plugin_repositories_featured: sistema-gestion-inventarios, hoja_de_vida
+          plugin_repositories_order: featured, pinned, starred, random
+          plugin_repositories_pinned: 6
+          plugin_repositories_affiliations: owner, collaborator, organization_member      
+
+      # Generate full-year calendar with language analysis
+      - name: Generate full-year calendar
+        uses: lowlighter/metrics@latest
+        with:
+          filename: calendar.plugin.fullyear.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_languages: yes
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_sections: recently-used, most-used
+          plugin_languages_colors: github
+          plugin_languages_limit: 8
+
+        
