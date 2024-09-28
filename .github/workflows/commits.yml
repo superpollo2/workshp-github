@@ -58,7 +58,7 @@ jobs:
       - name: Generate lenguage
         uses: lowlighter/metrics@latest
         with:
-          filename: lenguage.plugin.fullyear.svg
+          filename: lenguage.plugin.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_languages: yes
