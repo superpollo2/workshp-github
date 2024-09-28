@@ -24,7 +24,7 @@ jobs:
       - name: Generate half-year calendar
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.isocalendar.svg
+          filename: calendar.plugin.isocalendar.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_isocalendar: yes
@@ -45,7 +45,7 @@ jobs:
       - name: Pinned repositories
         uses: lowlighter/metrics@latest
         with:
-          filename: plugin.repositories.pinned.svg
+          filename: repositories.pinned.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_repositories: yes
@@ -55,10 +55,10 @@ jobs:
           plugin_repositories_affiliations: owner, collaborator, organization_member      
 
       # Generate full-year calendar with language analysis
-      - name: Generate full-year calendar
+      - name: Generate lenguage
         uses: lowlighter/metrics@latest
         with:
-          filename: calendar.plugin.fullyear.svg
+          filename: lenguage.plugin.fullyear.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_languages: yes
