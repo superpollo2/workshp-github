@@ -199,6 +199,8 @@ Cada uno de las siguientes tareas las agregaremos en el Actions en steps luego d
 Si quieres cacharrear más 
 https://github.com/lowlighter/metrics?tab=readme-ov-file
 
+y acá esta el workflow con los plugins ya
+https://github.com/superpollo2/workshp-github/blob/main/.github/workflows/commits.yml
 Para insertar las imagenes creadas usa, recuerda cambiar la etiqueta
 y el nombre del svg
 ```
